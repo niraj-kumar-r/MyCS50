@@ -1,0 +1,43 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It has a significant improvement when the list is sorted, in comparision to others sorts.
+We know, that among the 3 sorts used, only bubble sort has an omega(n) which is much better than O(n sq) in its worst case. Therefore
+sort 1 is Bubble sort
+
+sort2 uses: Merge Sort
+
+How do you know?: It performs much better in the random and reversed test, which can only be done by merge sort as it has a theta(nlog(n))
+
+sort3 uses: selection sort
+
+How do you know?: It took about the same amount of time, regardless of weather the numbers were sorted, random, or reversed, but the time
+taken was more than sort 2, hence sort 3 via rejection of other possibilities is proved to be selection sort
+
+
+#   sort 1
+
+##  sorted5000.txt : 0.069
+##  sorted50k : 1.425
+##  reversed50k : 7.003
+##  random50k : 8.636
+
+SORT 1 IS BUBBLE SORT
+
+
+#   sort 2
+
+##  sorted5000.txt : 0.59
+##  sorted50k : 1.741
+##  reversed50k : 1.925
+##  random50k : 1.637
+
+SORT 2 IS MERGE SORT
+
+#   sort 3
+
+##  sorted5000.txt : 0.52
+##  sorted50k : 4.201s
+##  reversed50k : 4.126
+##  random50k : 4.493
+
+SORT 3 IS SELECTION SORT
